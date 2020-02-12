@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2C95BB2397FF3A0002DAA3 /* Add New Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C95BA2397FF3A0002DAA3 /* Add New Room.swift */; };
+		5C2C95BD239801DC0002DAA3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C95BC239801DC0002DAA3 /* Extension.swift */; };
+		5C2DB84B238ED5B300F02FC3 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DB84A238ED5B300F02FC3 /* PlayerManager.swift */; };
+		5C509D39238B3A6B00DF4950 /* Music Player Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C509D38238B3A6B00DF4950 /* Music Player Module.swift */; };
+		5C509D3B238B3BAE00DF4950 /* SmartIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C509D3A238B3BAE00DF4950 /* SmartIcon.swift */; };
+		5C657E182387235600228C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E172387235600228C14 /* AppDelegate.swift */; };
+		5C657E1A2387235600228C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E192387235600228C14 /* SceneDelegate.swift */; };
+		5C657E1C2387235600228C14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E1B2387235600228C14 /* ContentView.swift */; };
+		5C657E1E2387235A00228C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C657E1D2387235A00228C14 /* Assets.xcassets */; };
+		5C657E212387235A00228C14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C657E202387235A00228C14 /* Preview Assets.xcassets */; };
+		5C657E242387235A00228C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C657E222387235A00228C14 /* LaunchScreen.storyboard */; };
+		5C657E2C2387292500228C14 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E2B2387292500228C14 /* RoomCell.swift */; };
+		5C657E2E23872DCD00228C14 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E2D23872DCD00228C14 /* Page1.swift */; };
+		5C657E3023872F0400228C14 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C657E2F23872F0400228C14 /* Page2.swift */; };
+		5CA5A60023905D3400CA4131 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5A5FF23905D3400CA4131 /* Constants.swift */; };
+		5CA5A6022390641E00CA4131 /* Slider Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5A6012390641E00CA4131 /* Slider Module.swift */; };
+		5CB5A82E2387C90600E00F57 /* Detail Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5A82D2387C90600E00F57 /* Detail Room.swift */; };
+		5CB5A8302387CF8E00E00F57 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5A82F2387CF8E00E00F57 /* Room.swift */; };
+		5CE6F3CE23880B9100EFA01F /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6F3CD23880B9100EFA01F /* CustomToggle.swift */; };
+		5CE85D072391A8410077D30A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE85D062391A8410077D30A /* User.swift */; };
+		5CE85D092391A8900077D30A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE85D082391A8900077D30A /* Device.swift */; };
+		5CE85D0C2391AD550077D30A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE85D0B2391AD550077D30A /* CustomButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C2C95BA2397FF3A0002DAA3 /* Add New Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add New Room.swift"; sourceTree = "<group>"; };
+		5C2C95BC239801DC0002DAA3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5C2DB84A238ED5B300F02FC3 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		5C509D38238B3A6B00DF4950 /* Music Player Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Music Player Module.swift"; sourceTree = "<group>"; };
+		5C509D3A238B3BAE00DF4950 /* SmartIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartIcon.swift; sourceTree = "<group>"; };
+		5C657E142387235600228C14 /* Smart Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C657E172387235600228C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C657E192387235600228C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C657E1B2387235600228C14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C657E1D2387235A00228C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C657E202387235A00228C14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C657E232387235A00228C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C657E252387235A00228C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C657E2B2387292500228C14 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		5C657E2D23872DCD00228C14 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		5C657E2F23872F0400228C14 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		5CA5A5FF23905D3400CA4131 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5CA5A6012390641E00CA4131 /* Slider Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slider Module.swift"; sourceTree = "<group>"; };
+		5CB5A82D2387C90600E00F57 /* Detail Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Room.swift"; sourceTree = "<group>"; };
+		5CB5A82F2387CF8E00E00F57 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		5CE6F3CD23880B9100EFA01F /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		5CE85D062391A8410077D30A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5CE85D082391A8900077D30A /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		5CE85D0B2391AD550077D30A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C657E112387235600228C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C657E0B2387235600228C14 = {
+			isa = PBXGroup;
+			children = (
+				5C2C95BC239801DC0002DAA3 /* Extension.swift */,
+				5C657E162387235600228C14 /* Smart Home */,
+				5C657E152387235600228C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C657E152387235600228C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C657E142387235600228C14 /* Smart Home.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C657E162387235600228C14 /* Smart Home */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5A82D2387C90600E00F57 /* Detail Room.swift */,
+				5C657E1B2387235600228C14 /* ContentView.swift */,
+				5C657E2D23872DCD00228C14 /* Page1.swift */,
+				5C657E2F23872F0400228C14 /* Page2.swift */,
+				5C2C95BA2397FF3A0002DAA3 /* Add New Room.swift */,
+				5C657E252387235A00228C14 /* Info.plist */,
+				5C657E172387235600228C14 /* AppDelegate.swift */,
+				5CA5A5FF23905D3400CA4131 /* Constants.swift */,
+				5CE6F3CD23880B9100EFA01F /* CustomToggle.swift */,
+				5CE85D0B2391AD550077D30A /* CustomButton.swift */,
+				5CE85D082391A8900077D30A /* Device.swift */,
+				5C509D38238B3A6B00DF4950 /* Music Player Module.swift */,
+				5C2DB84A238ED5B300F02FC3 /* PlayerManager.swift */,
+				5CB5A82F2387CF8E00E00F57 /* Room.swift */,
+				5C657E2B2387292500228C14 /* RoomCell.swift */,
+				5C657E192387235600228C14 /* SceneDelegate.swift */,
+				5CA5A6012390641E00CA4131 /* Slider Module.swift */,
+				5C509D3A238B3BAE00DF4950 /* SmartIcon.swift */,
+				5CE85D062391A8410077D30A /* User.swift */,
+				5C657E1D2387235A00228C14 /* Assets.xcassets */,
+				5C657E222387235A00228C14 /* LaunchScreen.storyboard */,
+				5C657E1F2387235A00228C14 /* Preview Content */,
+			);
+			path = "Smart Home";
+			sourceTree = "<group>";
+		};
+		5C657E1F2387235A00228C14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C657E202387235A00228C14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C657E132387235600228C14 /* Smart Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C657E282387235A00228C14 /* Build configuration list for PBXNativeTarget "Smart Home" */;
+			buildPhases = (
+				5C657E102387235600228C14 /* Sources */,
+				5C657E112387235600228C14 /* Frameworks */,
+				5C657E122387235600228C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Home";
+			productName = "Smart Home";
+			productReference = 5C657E142387235600228C14 /* Smart Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C657E0C2387235600228C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Arsalan Iravani";
+				TargetAttributes = {
+					5C657E132387235600228C14 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C657E0F2387235600228C14 /* Build configuration list for PBXProject "Smart Home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C657E0B2387235600228C14;
+			productRefGroup = 5C657E152387235600228C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C657E132387235600228C14 /* Smart Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C657E122387235600228C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C657E242387235A00228C14 /* LaunchScreen.storyboard in Resources */,
+				5C657E212387235A00228C14 /* Preview Assets.xcassets in Resources */,
+				5C657E1E2387235A00228C14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C657E102387235600228C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB5A82E2387C90600E00F57 /* Detail Room.swift in Sources */,
+				5CA5A6022390641E00CA4131 /* Slider Module.swift in Sources */,
+				5C657E182387235600228C14 /* AppDelegate.swift in Sources */,
+				5CB5A8302387CF8E00E00F57 /* Room.swift in Sources */,
+				5CE6F3CE23880B9100EFA01F /* CustomToggle.swift in Sources */,
+				5C2DB84B238ED5B300F02FC3 /* PlayerManager.swift in Sources */,
+				5C657E1A2387235600228C14 /* SceneDelegate.swift in Sources */,
+				5CE85D092391A8900077D30A /* Device.swift in Sources */,
+				5C509D3B238B3BAE00DF4950 /* SmartIcon.swift in Sources */,
+				5CE85D072391A8410077D30A /* User.swift in Sources */,
+				5CA5A60023905D3400CA4131 /* Constants.swift in Sources */,
+				5C2C95BB2397FF3A0002DAA3 /* Add New Room.swift in Sources */,
+				5C657E2C2387292500228C14 /* RoomCell.swift in Sources */,
+				5C2C95BD239801DC0002DAA3 /* Extension.swift in Sources */,
+				5C509D39238B3A6B00DF4950 /* Music Player Module.swift in Sources */,
+				5CE85D0C2391AD550077D30A /* CustomButton.swift in Sources */,
+				5C657E2E23872DCD00228C14 /* Page1.swift in Sources */,
+				5C657E1C2387235600228C14 /* ContentView.swift in Sources */,
+				5C657E3023872F0400228C14 /* Page2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C657E222387235A00228C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C657E232387235A00228C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C657E262387235A00228C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C657E272387235A00228C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C657E292387235A00228C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Home/Preview Content\"";
+				DEVELOPMENT_TEAM = G7CN72P9F4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smart Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arsalan.Smart-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C657E2A2387235A00228C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Home/Preview Content\"";
+				DEVELOPMENT_TEAM = G7CN72P9F4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smart Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arsalan.Smart-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C657E0F2387235600228C14 /* Build configuration list for PBXProject "Smart Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C657E262387235A00228C14 /* Debug */,
+				5C657E272387235A00228C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C657E282387235A00228C14 /* Build configuration list for PBXNativeTarget "Smart Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C657E292387235A00228C14 /* Debug */,
+				5C657E2A2387235A00228C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C657E0C2387235600228C14 /* Project object */;
+}
